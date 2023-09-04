@@ -20,7 +20,7 @@ use App\Http\Controllers\DetailTransaksiController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Login.Login');
 });
 Route::get('/d', function () {
     return view('dinamis');
